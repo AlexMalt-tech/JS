@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./6_hw.css">
+    <title>6_hw</title>
+</head>
+
+<body>
+    <!-- <input id="elem" type="button" value="Нажми меня!"> -->
+    <div class="wapper">
+
+        <div class="catalog">
+            <h2>Каталог</h2>
+            <div class="item">
+                <h3>Наименование товара: <span id="item_1"></span>
+                </h3>
+                <p>Цена товара:
+                    <span id="price_1"></span>
+                </p>
+                <input id="btn_1" type="button" value="в корзину">
+            </div>
+            <div class="item">
+                <h3>Наименование товара: <span id="item_2"></span>
+                </h3>
+                <p>Цена товара:
+                    <span id="price_2"></span>
+                </p>
+                <input id="btn_2" type="button" value="в корзину">
+            </div>
+            <div class="item no_bdr">
+                <h3>Наименование товара: <span id="item_3"></span>
+                </h3>
+                <p>Цена товара:
+                    <span id="price_3"></span>
+                </p>
+                <input id="btn_3" type="button" value="в корзину">
+            </div>
+        </div>
+        <div class="cart">
+            <h2>Корзина</h2>
+            <div class="cart__items" id="cartItems">
+                <div class="cart__items__cell" id="cartItemsClean"></div>
+                <div class="cart__items__cell" id="cartItems1"></div>
+                <div class="cart__items__total" id="total_1"></div>
+                <div class="cart__items__cell" id="cartItems2"></div>
+                <div class="cart__items__total" id="total_2"></div>
+                <div class="cart__items__cell" id="cartItems3"></div>
+                <div class="cart__items__total" id="total_3"></div>
+            </div>
+            <div class="cart__bottom">
+                <div id="cartCount"></div>
+                <div class="cart__bottom__btn">
+                    <input id="btnTotal" type="button" value="Total">
+                    <input id="clear" type="button" value="Clear cart">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./6_hw.js"></script>
+</body>
+
+</html>
